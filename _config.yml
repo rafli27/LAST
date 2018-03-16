@@ -1,0 +1,26 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      /blog/:title
+
+# Server
+source:         "."
+destination:    ./_gh_pages
+host:           0.0.0.0
+port:           9001
+baseurl:        ""
+url:            "http://m-rafli.tk"
+encoding:       UTF-8
+exclude:
+
+
+
+title: Mochammad Rafli
+description: "my profile page"
+paginate: 20
+paginate_path: /blog/page-:num
